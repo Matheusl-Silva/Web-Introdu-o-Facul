@@ -17,8 +17,34 @@ nav a {
     text-decoration: none;
     padding: 10px 15px;
     display: block;
+    color: azure;
 }
 
 nav a:hover {
     border-radius: 5px;
+    color: red;
 }
+#sec2{
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cabeca{
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornflowerblue;
+}
+
+.tag{
+    background-color: darkcyan;
+}
+header{
+    color: rgb(255, 255, 255);
+}
+
