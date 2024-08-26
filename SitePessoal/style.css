@@ -4,14 +4,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #90E0EF;
+    background-color: #012030;
 }
 
 li, a, button{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    color: #03045E;
+    font-size: 25px;
+    color: #45C4B0;
     text-decoration: none;
 }
 
@@ -22,7 +22,9 @@ header{
     padding: 30px 10%;
 }
 h1{
-    color: #03045E;
+    color: #45C4B0;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
 }
 
 .nav_links{
@@ -44,7 +46,7 @@ h1{
 
 button{
     padding: 9px 25px;
-    background-color: #CAF0F8;
+    background-color: #DAFDBA;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -53,4 +55,29 @@ button{
 
 button:hover{
     background-color: #0077B6;
+}
+
+.section {
+    padding: 2em;
+    color: #FFFFFF;
+}
+
+.aboutme{
+    text-align: right;
+}
+
+.career{
+    text-align: left;
+}
+
+.projects{
+    text-align: right;
+}
+
+.site{
+    text-align: left;
+}
+
+.contact{
+    text-align: center;
 }
