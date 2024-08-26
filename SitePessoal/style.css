@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #012030;
 }
 
 li, a, button{
@@ -20,6 +19,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: #012030;
 }
 h1{
     color: #45C4B0;
@@ -60,6 +60,7 @@ button:hover{
 .section {
     padding: 2em;
     color: #FFFFFF;
+    background-color: #012738;
 }
 
 .aboutme{
@@ -80,4 +81,6 @@ button:hover{
 
 .contact{
     text-align: center;
+    background-color: #012030;
+    min-height: 22vh;
 }
