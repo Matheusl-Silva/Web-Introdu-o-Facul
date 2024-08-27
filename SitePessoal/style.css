@@ -64,9 +64,19 @@ button:hover{
 }
 
 .aboutme{
-    text-align: right;
+    display: flex;
+    align-items: center;
 }
 
+.aboutme img{
+    margin-right: 20px;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.aboutme p{
+    max-width: 600px;
+}
 .career{
     text-align: left;
 }
