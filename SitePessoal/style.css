@@ -21,6 +21,7 @@ header{
     padding: 30px 10%;
     background-color: #012030;
 }
+
 h1{
     color: #45C4B0;
     font-family: "Bebas Neue", sans-serif;
@@ -65,24 +66,34 @@ button:hover{
 
 .aboutme{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    background: linear-gradient(to bottom, #012738, #2e73c8);
+    padding: 20px;
 }
 
 .aboutme img{
-    margin-right: 20px;
-    max-width: 150px;
-    border-radius: 50%;
+    flex: 0 0 auto;
+    margin-left: 600px;
+    max-width: 200px; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    height: auto;
 }
 
 .aboutme p{
     max-width: 600px;
+    padding: 20px;
 }
+
 .career{
-    text-align: left;
+    text-align: right;
+    
 }
 
 .projects{
-    text-align: right;
+    text-align: left;
 }
 
 .site{
@@ -93,4 +104,13 @@ button:hover{
     text-align: center;
     background-color: #012030;
     min-height: 22vh;
+}
+
+.gradient-container {
+
+}
+
+.gradient-container p {
+    margin: 0;
+    padding: 10px 0;
 }
