@@ -1,0 +1,15 @@
+img{
+    height: 10%;
+    width: 10%;
+}
+
+td, table, tr,th{
+    border: solid;
+    border-collapse: collapse;
+    border-color: aqua;
+    background-color: rgb(71, 71, 167);
+}
+
+td:hover{
+    background-color: red;
+}
