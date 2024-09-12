@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+        <h1>Formulários</h1>
+    </div>
+    <div>
+        <form action="#">
+            <div>
+                <label for="comment">Comentário</label>
+                <textarea cols="50" rows="10" name="comentario" id="comment"></textarea>
+            </div>
+            <div>
+                <label for="n">Nome Completo*</label>
+                <input type="text" placeholder="Matheus Silva" name="nome" id="n" required>
+            </div>
+            <div>
+                <label for="qtd">Quantidade</label>
+                <input type="number" name="quantidade" id="qtd" max="10">
+            </div>
+            <div>
+                <label for="mail">Email</label>
+                <input type="email" name="e-mail" id="mail">
+            </div>
+            <div>
+                <label for="nasc">Nascimento</label>
+                <input type="date" name="nascimento" id="nasc">
+            </div>
+            <div>
+                <label for="sn">Senha</label>
+                <input type="password" name="senha" id="sn">
+            </div>
+            <input type="submit" value="Salvar">
+        </form>
+    </div>
+    
+</body>
+</html>
