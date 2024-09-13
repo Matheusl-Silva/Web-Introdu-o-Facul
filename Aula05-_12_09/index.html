@@ -11,10 +11,11 @@
         <h1>Formulários</h1>
     </div>
     <div>
-        <form action="#">
+        <form action="#" method="get">
+            <div id="div">
             <div>
                 <label for="comment">Comentário</label>
-                <textarea cols="50" rows="10" name="comentario" id="comment"></textarea>
+                <textarea cols="20" rows="10" name="comentario" id="comment"></textarea>
             </div>
             <div>
                 <label for="n">Nome Completo*</label>
@@ -36,8 +37,35 @@
                 <label for="sn">Senha</label>
                 <input type="password" name="senha" id="sn">
             </div>
+            <div>
+                <p>Você é feliz?</p>
+                <input type="radio" name="sim" id="y">
+                <label for="y">Sim</label>
+                <input type="radio" name="nao" id="not">
+                <label for="not">Não</label>
+            </div>
+            <div>
+                <p>Você é feio?</p>
+                <input type="checkbox" name="din" value="dinheiro" id="money">
+                <label for="money">Dinheiro</label>
+                <input type="checkbox" name="family" id="fam" value="familia">
+                <label for="fam">Familia</label>
+                <input type="checkbox" name="love" id="amor" value="amar">
+                <label for="amor">Amor</label>
+                <input type="checkbox" name="Ferias" id="vacation" value="fer">
+                <label for="vacation">Férias</label>
+            </div>
+            <div>
+                <select name="estado" id="uf" required>
+                    <option value="AP">Amapá</option>
+                    <option value="PR" selected>Paraná</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="SC">Santa Catarina</option>
+                </select>
+            </div>
             <input type="submit" value="Salvar">
         </form>
+    </div>
     </div>
     
 </body>
