@@ -47,7 +47,7 @@ h1{
 
 button{
     padding: 9px 25px;
-    background-color: #DAFDBA;
+    background-color: #d6ebec;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -55,7 +55,7 @@ button{
 }
 
 button:hover{
-    background-color: #0077B6;
+    background-color: #104b68;
 }
 
 .section {
@@ -74,7 +74,7 @@ button:hover{
 
 .aboutme img{
     flex: 0 0 auto;
-    margin-left: 600px;
+    margin-left: 350px;
     max-width: 200px; 
     border-radius: 50%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -82,13 +82,13 @@ button:hover{
     height: auto;
 }
 
-.aboutme p{
-    max-width: 600px;
-    padding: 20px;
+.forme{
+    padding-left: 10%;
 }
 
-.career{
-    text-align: right;
+.aboutme p{
+    max-width: 600px;
+    padding-left: 10%;
     
 }
 
@@ -96,18 +96,64 @@ button:hover{
     text-align: left;
 }
 
-.site{
+.site {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.site img{
+    max-width: 400px;  
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-right: 80px;
+}
+
+.site p{
+    max-width: 40%;
+    word-break: break-all;
+    padding: 3%;
+    margin: 0 auto;
+    font-size: medium;
     text-align: left;
 }
 
+.site h2 {
+    text-align: right;
+    padding-right: 6%;
+    
+  }
+
+.career{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #113849, #2f598a);
+    padding: 20px;
+} 
+
+
+.career p{
+    max-width: 40%;
+    word-break: break-all;
+    padding: 3%;
+    margin: 0 auto;
+    font-size: medium;
+}
+.career img{
+    flex: 0 0 auto;
+    margin-left: 350px;
+    max-width: 200px; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    height: auto;
+}
+    
 .contact{
     text-align: center;
     background-color: #012030;
     min-height: 22vh;
-}
-
-.gradient-container {
-
 }
 
 .gradient-container p {
