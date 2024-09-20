@@ -103,14 +103,14 @@ button:hover{
 }
 
 .site img{
-    max-width: 400px;  
+    max-width: 350px;  
     margin: 0 auto;
     border-radius: 50%;
     margin-right: 80px;
 }
 
 .site p{
-    max-width: 40%;
+    max-width: 42%;
     word-break: break-all;
     padding: 3%;
     margin: 0 auto;
@@ -132,22 +132,22 @@ button:hover{
     padding: 20px;
 } 
 
-
 .career p{
-    max-width: 40%;
+    max-width: 43%;
     word-break: break-all;
     padding: 3%;
-    margin: 0 auto;
     font-size: medium;
 }
 .career img{
-    flex: 0 0 auto;
-    margin-left: 350px;
-    max-width: 200px; 
+    margin-left: 400px;
+    max-width: 300px; 
     border-radius: 50%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     width: 100%;
     height: auto;
+}
+.career h2{
+    padding-left: 10%;
 }
     
 .contact{
