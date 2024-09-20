@@ -74,7 +74,7 @@ button:hover{
 
 .aboutme img{
     flex: 0 0 auto;
-    margin-left: 350px;
+    margin-left: 320px;
     max-width: 200px; 
     border-radius: 50%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -84,6 +84,7 @@ button:hover{
 
 .forme{
     padding-left: 10%;
+    font-size: 28px;
 }
 
 .aboutme p{
@@ -98,7 +99,7 @@ button:hover{
 
 .site {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
     align-items: center;
 }
 
@@ -139,7 +140,7 @@ button:hover{
     font-size: medium;
 }
 .career img{
-    margin-left: 400px;
+    margin-left: 320px;
     max-width: 300px; 
     border-radius: 50%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -148,12 +149,27 @@ button:hover{
 }
 .career h2{
     padding-left: 10%;
+    font-size: 28px;
 }
     
 .contact{
     text-align: center;
     background-color: #012030;
     min-height: 22vh;
+}
+
+.contact h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.contact i{
+   
+}
+.bi{
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-top: 20px;
 }
 
 .gradient-container p {
