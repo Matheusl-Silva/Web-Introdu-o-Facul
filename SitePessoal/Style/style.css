@@ -162,6 +162,10 @@ button:hover{
     font-size: 30px;
 }
 
+.projects img{
+    max-width: 15%;
+    float: right;
+}
 .projects{
     display: flex;
     justify-content: space-between;
@@ -173,6 +177,7 @@ button:hover{
     padding: 3%;
     font-size: medium;
 }
+
 .bi{
     font-size: 30px;
     letter-spacing: 20px;
